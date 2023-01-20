@@ -31,3 +31,8 @@ spring:
       org.springframework: ERROR
       org.springframework.web: ERROR
       org.hibernate: ERROR
+
+  eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8099/eureka/
