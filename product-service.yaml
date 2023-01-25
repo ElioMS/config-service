@@ -5,9 +5,9 @@ spring:
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/service_product
+    url: jdbc:postgresql://localhost:5432/product_service
     username: postgres
-    password: admin
+    password: secret
 
   # JPA properties
   jpa:
